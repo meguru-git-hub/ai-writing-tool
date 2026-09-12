@@ -1,0 +1,6 @@
+# Streamlit の設定
+# 標準では、このパソコンからしか開けないようにする（同じ Wi-Fi の他人に APIキーを使われないため）。
+# スマホなど別の端末から使いたいときだけ、次のように起動する:
+#   streamlit run app.py --server.address 0.0.0.0
+[server]
+address = "localhost"
